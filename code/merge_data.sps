@@ -24,10 +24,6 @@ DATASET ACTIVATE scores_A.
 ALTER TYPE name (A6).
 EXECUTE.
 
-* 激活第 2 个数据集（已为 A6，无需改变）.
-DATASET ACTIVATE scores_B.
-* — 假定已正确为 A6。
-
 * 进行纵向合并（添加个案）.
 DATASET ACTIVATE scores_A.
 ADD FILES
