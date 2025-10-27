@@ -25,3 +25,8 @@ ALTER TYPE ParentEducOrd (F1.0).
 VARIABLE LEVEL ParentEducOrd (ORDINAL).
 EXECUTE.
 SAVE OUTFILE='样例数据\Students\StudentScores.sav'.
+SAVE TRANSLATE 
+    /OUTFILE="样例数据\Students\StudentScores.csv"
+    /TYPE=CSV
+    /REPLACE
+    /FIELDNAMES.
